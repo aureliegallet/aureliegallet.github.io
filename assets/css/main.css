@@ -2468,6 +2468,11 @@ input, select, textarea {
 
 		}
 
+/* Title */
+	.project-title {
+		font-size: 1.5em;
+	}
+
 /* Post */
 
 	.post {
