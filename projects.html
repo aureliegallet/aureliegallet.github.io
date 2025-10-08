@@ -6,28 +6,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="is-preload">
+	<body class="single is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Aurélie Gallet</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="projects.html">Projects</a></li>
-								<li><a href="curriculum.html">CV</a></li>
-							</ul>
-						</nav>
-					</header>
+                <header id="header">
+                    <h1><a href="index.html">Aurélie Gallet</a></h1>
+                    <nav class="links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+							<li><a href="curriculum.html">CV</a></li>
+                        </ul>
+                    </nav>
+                </header>
 
 				<!-- Main -->
 					<div id="main">
 
-						<h1 class="project-title">Latest Completed Projects</h1>
-						
 						<!-- Post -->
 						<article class="post">
 							<header>
@@ -108,123 +106,74 @@
 								</ul>
 							</article>
 
-						<!-- View more projects -->
-							<ul class="actions">
-								<li><a href="projects.html" class="button large"> View all projects</a></li>
-							</ul>
-						
-							
-					</div>
-				
-				<!-- Sidebar -->
-					<section id="sidebar">
-
-						<!-- Intro -->
-							<section id="intro">
+						<!-- Post -->
+							<article class="post">
 								<header>
-									<h2>Aurélie Gallet</h2>
-									<p>Student at <a href="https://www.mcgill.ca/">McGill University</a></p>
+									<div class="title">
+										<h2>Utrecht Pollution Forecasting</h2>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2024-10-31">October 31, 2024</time>
+										<p class="name">Team size: 3 people</p>
+									</div>
 								</header>
-							</section>
+								<a   class="image featured"><img src="images/projects/ml4i.png" alt="" /></a>
+								<p>This project involved the development of a Machine Learning model for time-series
+									prediction in a team of three students for my Machine Learning for Industry course. This project
+									covers all steps of a machine learning life cycle. We were first tasked with identifying and collecting 
+									trustworthy data, data exploration, preprocessing and feature engineering. Then, we trained a baseline Linear Regression
+									model, explored other machine learning models using PyTorch, tuned hyperparameters, tested the
+									models and chose the best one based on an evaluation of performance and costs. During the last stage
+									of our project, we deployed our best model – an ensemble of Long Short-Term Memory networks –
+									via a Quart web application. Additionally, we uploaded our application to Hugging Face but it is
+									currently not in use. For this project, all team members were equally responsible for the data
+									preprocessing and model building. Only two steps were split, with one team member being in charge
+									of running hyperparameter tuning using the university’s High Performance Computing cluster, while
+									the other teammate and I were in charge of deployment.</p>
+								<p><a href="https://github.com/aureliegallet/Machine-Learning-for-Industry">See GitHub here</a></p>
+							</article>
 
-						<!-- About -->
-						<section class="blurb">
-							<h2>About</h2>
-							<p>Hello! I am currently studying Computing Science and AI at a master's level. I love problem-solving and thinking about changes that can positively impact the daily lives of many. My insterests lie in creating innovations that center around humans, ensuring that technology is designed to help people, adapt to their needs, and is both explainable and fair.</p>
-						</section>
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2>Gomibo Inventory</h2>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2024-06-01">June 2, 2024</time>
+										<p class="name">Team size: 4 people</p>
+									</div>
+								</header>
+								<a   class="image featured"><img src="images/projects/gomibo.png" alt="" /></a>
+								<p>I worked on this project in a team of four students during my Software Engineering course.
+									Our task was to develop a web application for managing office equipment inventory for our client
+									Gomibo | Belsimpel – a Dutch telecommunication webshop company. The project required us to
+									follow a Software development lifecycle which included extracting requirements from the client,
+									identifying stakeholders, personas, epics, and user stories, modeling diagrams such as sequence and
+									class diagrams, and finally coding and testing the application. We used a Laravel Backend, a React
+									Frontend, a MySQL database, and Docker containers. Throughout the project, my team adopted the
+									SCRUM framework with sprints that lasted two weeks and client feedback after each sprint. My roles
+									within the team were UX/UI Designer, Internal Communication Officer and Product Owner. The other
+									three teammates had multiple roles that included External Communication Officer, Chief Architect,
+									Scrum Master (two teammates), Technical Director, Documentation Leader. The final product was
+									delivered to our client at the end of the course, and while we are unsure of its current use, the
+									feedback we received from them was very positive.</p>
+								<p><a href="https://github.com/EneRgYCZ/IOE">See GitHub here</a></p>
+							</article>
 
-						<!-- Mini Posts
-							<section>
-								<div class="mini-posts">
-						-->
 
-									<!-- Mini Post 
-										<article class="mini-post">
-											<header>
-												<h3><a  >Vitae sed condimentum</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
-												<a href="#" class="author"><img src="images/aurelie.jpeg" alt="" /></a>
-											</header>
-											<a   class="image"><img src="images/pic04.jpg" alt="" /></a>
-										</article>
-									-->
+					</div>
 
-									<!-- Mini Post
-										<article class="mini-post">
-											<header>
-												<h3><a  >Rutrum neque accumsan</a></h3>
-												<time class="published" datetime="2015-10-19">October 19, 2015</time>
-												<a href="#" class="author"><img src="images/aurelie.jpeg" alt="" /></a>
-											</header>
-											<a   class="image"><img src="images/pic05.jpg" alt="" /></a>
-										</article>
-									-->
-
-									<!-- Mini Post
-										<article class="mini-post">
-											<header>
-												<h3><a  >Odio congue mattis</a></h3>
-												<time class="published" datetime="2015-10-18">October 18, 2015</time>
-												<a href="#" class="author"><img src="images/aurelie.jpeg" alt="" /></a>
-											</header>
-											<a   class="image"><img src="images/pic06.jpg" alt="" /></a>
-										</article>
-									-->
-
-									<!-- Mini Post
-										<article class="mini-post">
-											<header>
-												<h3><a  >Enim nisl veroeros</a></h3>
-												<time class="published" datetime="2015-10-17">October 17, 2015</time>
-												<a href="#" class="author"><img src="images/aurelie.jpeg" alt="" /></a>
-											</header>
-											<a   class="image"><img src="images/pic07.jpg" alt="" /></a>
-										</article>
-									-->
-						
-						<!--
-								</div>
-							</section>
-						-->
-
-						<!-- Posts List -->
-							<section>
-								<ul class="posts">
-									<li>
-										<h3>Works in progress</h3><br/>
-										<article>
-											<header>
-												<h3>Machine Learning Boilerplate</h3>
-												<p>Attempt to make a Jupyter Notebook boilerplate using knowledge gained during the <a href="https://www.kaggle.com/learn">Kaggle Artificial Intelligence courses</a>.</p>
-											</header>
-											<a   class="image"><img src="images/ml_boilerplate.png" alt="" /></a>
-										</article>
-									</li>
-									<!-- <li>
-										<h3>Works in progress</h3><br/>
-										<article>
-											<header>
-												<h3>Contrastive Learning for better Explainability</h3>
-												<p>Comparison of Grad-CAM explanations generated using contrastive learning losses or categorical cross-entropy loss in a supervised contrastive learning framework.</p>
-											</header>
-											<a   class="image"><img src="images/learning.png" alt="" /></a>
-										</article>
-									</li> -->
-								</ul>
-							</section>
-
-						<!-- Footer -->
-							<section id="footer">
-								<ul class="icons">
-									<li><a href="https://github.com/aureliegallet" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.kaggle.com/aureliegallet" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
-									<li><a href="https://www.linkedin.com/in/aurelie-gallet-562b2526b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="mailto:aureliebeijiagallet@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-								<p class="copyright">&copy; Adapted from a template by <a href="http://html5up.net">HTML5 UP</a>. Images from <a href="http://unsplash.com">Unsplash</a>.</p>
-							</section>
-
-					</section>
+				<!-- Footer -->
+                    <section id="footer">
+                        <ul class="icons">
+                            <li><a href="https://github.com/aureliegallet" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.kaggle.com/aureliegallet" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/aurelie-gallet-562b2526b/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                            <li><a href="mailto:aureliebeijiagallet@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                        <p class="copyright">&copy; Adapted from a template by <a href="http://html5up.net">HTML5 UP</a>. Images from <a href="http://unsplash.com">Unsplash</a>.</p>
+                    </section>
 
 			</div>
 
