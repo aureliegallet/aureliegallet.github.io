@@ -32,6 +32,35 @@
 						<article class="post">
 							<header>
 								<div class="title">
+									<h2>LLM Sycophancy and Expert Personas</h2>
+								</div>
+								<div class="meta">
+									<time class="published" datetime="2024-01-17">December 02, 2025</time>
+									<p class="name">Team size: 3 people</p>
+								</div>
+							</header>
+							<a class="image featured"><img src="images/projects/sycophancy.png" alt="" /></a>
+							<p>
+								Although highly valuable, human judgment, especially expert judgment, is costly and time-intensive to gather. An
+								appealing alternative is to emulate their personas using language models (LMs). However, questions of model reliability
+								arise, given the well-known problem of sycophancy identified in previous research. This paper thus explores how LMs
+								respond to different types of feedback and whether expert-elicited personas are robust to sycophantic behavior. In
+								particular, the study investigates whether elicited experts are able to identify when feedback should be incorporated
+								because it provides helpful, well-reasoned insight, and when feedback should be ignored because it is misleading or
+								reflects flawed reasoning. Four conditions were evaluated by modifying the system prompt: a baseline, a topic expert, an
+								off-topic expert, and a general expert. All conditions provided an initial forecast, received different types of
+								feedback, and provided updated forecasts. We analyzed both the performance of the four conditions using Brier scores and
+								shifts in reasoning using various measures of reasoning similarity. This study finds that expert personas reduce
+								susceptibility to deceptively framed feedback, topic expert elicitation leads to the best improvement in Brier scores,
+								results are consistent across iterations, and experts are generally more consistent in their reasoning.
+							</p>
+							<p><a href="https://github.com/AndrewRWilliams/ForecastBench_expert_personas">See GitHub here</a></p>
+						</article>
+
+						<!-- Post -->
+						<article class="post">
+							<header>
+								<div class="title">
 									<h2>GoGreener App</h2>
 								</div>
 								<div class="meta">
@@ -84,28 +113,6 @@
 								impact of Contrastive Learning using different datasets and a wider range of explanation quality properties.
 							</p>
 							<p><a href="mailto:aureliebeijiagallet@gmail.com">More information via email</a></p>
-						</article>
-
-						<!-- Post -->
-						<article class="post">
-							<header>
-								<div class="title">
-									<h2>Nutrigenomics Knowledge System</h2>
-								</div>
-								<div class="meta">
-									<time class="published" datetime="2024-01-17">January 17, 2025</time>
-									<p class="name">Team size: 3 people</p>
-								</div>
-							</header>
-							<a   class="image featured"><img src="images/projects/nutrigenomics.png" alt="" /></a>
-							<p>
-								The Nutrigenomics Knowledge System project was completed for the Knowledge Technology 
-								course at the University of Groningen. The knowledge system leverages the expertise 
-								of <a href="https://scholar.google.com/citations?user=XVjLkYMAAAAJ&hl=en"> Professor 
-								Michael Muller</a> to diagnose gut health. After answering a set of questions regarding
-								the user's diet, the user is able to see advice regarding their diet and how healthy it is.
-							</p>
-							<p><a href="https://github.com/aureliegallet/Nutrigenomics-Knowledge-System">See GitHub here</a></p>
 						</article>
 
 						<!-- View more projects -->
@@ -195,21 +202,22 @@
 										<article>
 											<header>
 												<h3>Machine Learning Boilerplate</h3>
-												<p>Attempt to make a Jupyter Notebook boilerplate using knowledge gained during the <a href="https://www.kaggle.com/learn">Kaggle Artificial Intelligence courses</a>.</p>
+												<p>Attempt to make a boilerplate using knowledge gained during the <a href="https://www.kaggle.com/learn">Kaggle Artificial Intelligence courses</a>.</p>
 											</header>
 											<a   class="image"><img src="images/ml_boilerplate.png" alt="" /></a>
 										</article>
 									</li>
-									<!-- <li>
+									<li>
 										<h3>Works in progress</h3><br/>
 										<article>
 											<header>
-												<h3>Contrastive Learning for better Explainability</h3>
-												<p>Comparison of Grad-CAM explanations generated using contrastive learning losses or categorical cross-entropy loss in a supervised contrastive learning framework.</p>
+												<h3>Dangerous Clause Detector</h3>
+												<p>zero-cost contract auditor that analyzes legal documents using RAG and fine-tuned LLMs, built to identify risky clauses
+			                                    with end-to-end MLOps, safety, caching, evaluation, and deployment.</p>
 											</header>
 											<a   class="image"><img src="images/learning.png" alt="" /></a>
 										</article>
-									</li> -->
+									</li>
 								</ul>
 							</section>
 
